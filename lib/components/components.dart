@@ -15,7 +15,7 @@ Widget Custome_button({String? txt,void Function()? onPress})=> ElevatedButton(o
 Widget Question_summry(List? summary){
 
     return
-    
+
         SingleChildScrollView(
           child: Column(children: [
                ...summary!.map((data){
